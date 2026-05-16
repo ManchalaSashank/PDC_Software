@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDC Monitor</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Central PDC Window</p>
+          <h1>Multi-PMU Aggregator</h1>
+          <p class="hero-copy">
+            Add multiple PMUs, monitor their connection state, and open a dedicated PMU window for any source.
+          </p>
+        </div>
+        <div class="status-panel">
+          <span class="status-badge connected">PDC</span>
+          <p id="pdcSummary" class="status-meta">No PMUs connected yet.</p>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="card card-form">
+          <div class="section-title">
+            <h2>Add PMU to PDC</h2>
+            <p>Each PMU gets its own live socket, history buffer, and detail window.</p>
+          </div>
+          <form id="pmuForm" class="connection-form">
+            <label>
+              IP Address
+              <input id="ipAddress" name="ipAddress" type="text" placeholder="127.0.0.1" />
+            </label>
+            <label>
+              Port
+              <input id="port" name="port" type="number" placeholder="4712" />
+            </label>
+            <label>
+              PMU ID
+              <input id="pmuId" name="pmuId" type="number" placeholder="1" />
+            </label>
+            <div class="form-actions">
+              <button type="submit">Add PMU</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="card card-metrics">
+          <div class="section-title">
+            <h2>PDC Summary</h2>
+            <p>Overview of all PMUs currently managed by the backend PDC layer.</p>
+          </div>
+          <div class="metric-grid">
+            <article class="metric">
+              <span>Total PMUs</span>
+              <strong id="totalPmus">0</strong>
+            </article>
+            <article class="metric">
+              <span>Connected</span>
+              <strong id="connectedPmus">0</strong>
+            </article>
+            <article class="metric">
+              <span>Total Packets</span>
+              <strong id="totalPackets">0</strong>
+            </article>
+            <article class="metric">
+              <span>Active Station</span>
+              <strong id="activeStation">--</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="card card-table pdc-table-card">
+          <div class="section-title">
+            <h2>PMU Registry</h2>
+            <p>Click “Open Window” to view a dedicated PMU dashboard for that source.</p>
+          </div>
+          <div id="pmuList" class="pmu-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/pdc.js"></script>
+  </body>
+</html>

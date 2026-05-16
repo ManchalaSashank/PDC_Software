@@ -1,0 +1,5 @@
+scenario_pmus,connected,total_frames,mean_fps_per_pmu,mean_packet_quality_pct,latency_mean_ms,latency_p95_ms,latency_max_ms,jitter_std_ms,cfg_mean_ms,parse_errors
+1,1,384,32.106,64.21,0.308,0.501,1.349,1.250,10.609,0
+3,3,1152,32.043,64.09,0.380,0.945,1.795,1.903,28.653,0
+6,6,2292,31.934,63.87,0.395,0.971,1.982,2.249,28.533,0
+12,12,4597,32.023,64.05,0.361,0.874,1.515,0.653,23.901,0

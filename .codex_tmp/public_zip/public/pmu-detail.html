@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PMU Detail</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">PMU Window</p>
+          <h1 id="pmuTitle">PMU Detail</h1>
+          <p id="pmuSubtitle" class="hero-copy">Waiting for PMU selection.</p>
+        </div>
+        <div class="status-panel">
+          <span id="statusBadge" class="status-badge">Disconnected</span>
+          <p id="statusMeta" class="status-meta">No PMU selected.</p>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section class="card card-metrics">
+          <div class="section-title">
+            <h2>Live Summary</h2>
+            <p>Current measurements for the selected PMU.</p>
+          </div>
+          <div class="metric-grid">
+            <article class="metric">
+              <span>Frequency</span>
+              <strong id="frequencyValue">--</strong>
+            </article>
+            <article class="metric">
+              <span>ROCOF</span>
+              <strong id="rocofValue">--</strong>
+            </article>
+            <article class="metric">
+              <span>Packets</span>
+              <strong id="packetsValue">0</strong>
+            </article>
+            <article class="metric">
+              <span>Station</span>
+              <strong id="stationValue">--</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="card card-table">
+          <div class="section-title">
+            <h2>Chart Controls</h2>
+            <p>Control how fast the graphs move and how much history is visible.</p>
+          </div>
+          <div class="control-grid">
+            <label>
+              Refresh Delay
+              <select id="refreshSelect">
+                <option value="1500">1.5 seconds</option>
+                <option value="3000" selected>3 seconds</option>
+                <option value="5000">5 seconds</option>
+              </select>
+            </label>
+            <label>
+              Samples Shown
+              <select id="windowSelect">
+                <option value="20">20 samples</option>
+                <option value="40" selected>40 samples</option>
+                <option value="80">80 samples</option>
+                <option value="120">120 samples</option>
+              </select>
+            </label>
+            <div class="control-action">
+              <span>Graph Playback</span>
+              <button id="pauseChartsBtn" type="button">Pause Charts</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="card card-chart">
+          <div class="section-title">
+            <h2>Frequency Trend</h2>
+            <p>Recent samples for this PMU only.</p>
+          </div>
+          <svg id="frequencyChart" class="chart" viewBox="0 0 640 240" preserveAspectRatio="none"></svg>
+          <div id="frequencyStats" class="trend-stats"></div>
+        </section>
+
+        <section class="card card-chart">
+          <div class="section-title">
+            <h2>ROCOF Trend</h2>
+            <p>Live rate-of-change trend.</p>
+          </div>
+          <svg id="rocofChart" class="chart" viewBox="0 0 640 240" preserveAspectRatio="none"></svg>
+          <div id="rocofStats" class="trend-stats"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-title">
+            <h2>Phasor Magnitudes</h2>
+            <p>Smoothed channel cards with change indicators and recent trend traces.</p>
+          </div>
+          <div id="phasorList" class="bar-list"></div>
+        </section>
+
+        <section class="card">
+          <div class="section-title">
+            <h2>Analog Channels</h2>
+            <p>Stabilized view of analog channels with micro-trends for easier reading.</p>
+          </div>
+          <div id="analogList" class="bar-list"></div>
+        </section>
+
+        <section class="card card-table">
+          <div class="section-title">
+            <h2>Configuration Snapshot</h2>
+            <p>CFG2-derived metadata for the selected PMU.</p>
+          </div>
+          <div id="configTable" class="config-table"></div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/pmu-detail.js"></script>
+  </body>
+</html>

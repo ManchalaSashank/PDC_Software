@@ -1,0 +1,24 @@
+# ninja log v7
+9	1349	8002839498435863	PDC_Monitor_autogen/timestamp	30c48a1465318d19
+9	1349	8002839498435863	PDC_Monitor_autogen/mocs_compilation.cpp	30c48a1465318d19
+9	1349	8002839498435863	E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/PDC_Monitor_autogen/timestamp	30c48a1465318d19
+9	1349	8002839498435863	E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/PDC_Monitor_autogen/mocs_compilation.cpp	30c48a1465318d19
+1385	1682	8002839499804917	CMakeFiles/PDC_Monitor.dir/crc.cpp.obj	5fa2b805ff9e683e
+1374	1964	8002839499694908	CMakeFiles/PDC_Monitor.dir/command_builder.cpp.obj	82658c777b007ad7
+1378	3719	8002839499744915	CMakeFiles/PDC_Monitor.dir/connection.cpp.obj	3302231bf5b59a1f
+1391	4391	8002839499874915	CMakeFiles/PDC_Monitor.dir/data_manager.cpp.obj	a636cdf247e6f0b3
+1398	4869	8002839499934917	CMakeFiles/PDC_Monitor.dir/data_parser.cpp.obj	1c22dfe83feb1ccb
+1361	11206	8002839499564905	CMakeFiles/PDC_Monitor.dir/main.cpp.obj	7e174667bbcb07a3
+1370	11449	8002839499654897	CMakeFiles/PDC_Monitor.dir/pmu_worker.cpp.obj	22145c948bfde5b3
+1357	13719	8002839499524899	CMakeFiles/PDC_Monitor.dir/PDC_Monitor_autogen/mocs_compilation.cpp.obj	934cdba0819cad45
+1365	14240	8002839499604918	CMakeFiles/PDC_Monitor.dir/mainwindow.cpp.obj	7ccb1a769a17f146
+1407	15066	8002839500034899	CMakeFiles/PDC_Monitor.dir/pdc_dashboardwindow.cpp.obj	104f03e7f27bab3e
+1402	16344	8002839499984930	CMakeFiles/PDC_Monitor.dir/datawindow.cpp.obj	1a236aea6a26b979
+16344	16592	8002839649401304	PDC_Monitor.exe	bea3309a779dbc24
+27	252	8002855278859167	PDC_Monitor_autogen/timestamp	30c48a1465318d19
+27	252	8002855278859167	PDC_Monitor_autogen/mocs_compilation.cpp	30c48a1465318d19
+27	252	8002855278859167	E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/PDC_Monitor_autogen/timestamp	30c48a1465318d19
+27	252	8002855278859167	E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/PDC_Monitor_autogen/mocs_compilation.cpp	30c48a1465318d19
+253	3726	8002855281121958	CMakeFiles/PDC_Monitor.dir/mainwindow.cpp.obj	7ccb1a769a17f146
+256	4494	8002855281151801	CMakeFiles/PDC_Monitor.dir/pdc_dashboardwindow.cpp.obj	104f03e7f27bab3e
+4494	4669	8002855323530422	PDC_Monitor.exe	bea3309a779dbc24

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-6a6c78084f4c56bd00fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PDC_Monitor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PDC_Monitor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PDC_Monitor-Release-bc73c8fa7db237e97148.json",
+					"name" : "PDC_Monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PDC_Monitor_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PDC_Monitor_autogen-Release-9a22db6b5962fb0dcfc5.json",
+					"name" : "PDC_Monitor_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PDC_Monitor_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PDC_Monitor_autogen_timestamp_deps-Release-3955a9369ca95d115db2.json",
+					"name" : "PDC_Monitor_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_2",
+		"source" : "E:/QT_PDC_project/PDC_Monitor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

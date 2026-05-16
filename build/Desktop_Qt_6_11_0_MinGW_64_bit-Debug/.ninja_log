@@ -1,0 +1,18 @@
+# ninja log v7
+19	243	8002849065845055	PDC_Monitor_autogen/timestamp	81b802f8c745da9f
+19	243	8002849065845055	PDC_Monitor_autogen/mocs_compilation.cpp	81b802f8c745da9f
+19	243	8002849065845055	E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/PDC_Monitor_autogen/timestamp	81b802f8c745da9f
+19	243	8002849065845055	E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/PDC_Monitor_autogen/mocs_compilation.cpp	81b802f8c745da9f
+1017	1415	7988171922662331	CMakeFiles/PDC_Monitor.dir/crc.cpp.obj	899228882b3f8a76
+994	1775	7988171922432200	CMakeFiles/PDC_Monitor.dir/command_builder.cpp.obj	94f7fbdcb475588a
+1532	3749	8002705329613918	CMakeFiles/PDC_Monitor.dir/data_manager.cpp.obj	811087f053be52f1
+1542	3768	8002705329714017	CMakeFiles/PDC_Monitor.dir/data_parser.cpp.obj	52e6507f73aec753
+249	2141	8000117408582985	CMakeFiles/PDC_Monitor.dir/connection.cpp.obj	b7277500a9f642d0
+5083	8581	8002837181325510	CMakeFiles/PDC_Monitor.dir/main.cpp.obj	b656f88812d331fa
+5073	11515	8002837181225511	CMakeFiles/PDC_Monitor.dir/PDC_Monitor_autogen/mocs_compilation.cpp.obj	9d57efc7b89c384f
+243	4264	8002849068076695	CMakeFiles/PDC_Monitor.dir/mainwindow.cpp.obj	8db34ada40bb929d
+5119	8643	8002837181686175	CMakeFiles/PDC_Monitor.dir/pmu_worker.cpp.obj	4ed80d8b43e272e5
+278	4848	8002737767148017	CMakeFiles/PDC_Monitor.dir/datawindow.cpp.obj	1693341b1e9c2ecc
+4613	6534	8002849111779659	PDC_Monitor.exe	7447ff0b80c13b5e
+110	6274	8002328532619418	build.ninja	4a1ca18372022a99
+248	4613	8002849068126893	CMakeFiles/PDC_Monitor.dir/pdc_dashboardwindow.cpp.obj	59b8a1ff13eb6321
