@@ -1,0 +1,9 @@
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/PDC_Monitor.dir
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/edit_cache.dir
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/rebuild_cache.dir
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/list_install_components.dir
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/install.dir
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/install/local.dir
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/install/strip.dir
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/PDC_Monitor_autogen_timestamp_deps.dir
+E:/QT_PDC_project/PDC_Monitor/build/Desktop_Qt_6_11_0_MinGW_64_bit-Release_3/CMakeFiles/PDC_Monitor_autogen.dir
